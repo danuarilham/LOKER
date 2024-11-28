@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FFFFFFFF</color>
+    <color name="white">#000000</color>
+    <color name="Gray"> #F8F8FC</color>
+    <color name="biru"> #22177A</color>
+    <color name="hijau"> #605EA1</color>
+    <color name="border">#5E35B1</color>
+    <color name="pasang">#041180</color>
+    <color name="edit"> #FA812F</color>
+    <color name="hapus"> #C62E2E</color>
+    <color name="card"> #243642</color>
+    <color name="kirim"> #091057</color>
+    <color name="card2"> #608BC1</color>
+    <color name="pilih"> #7AB2D3</color>
+</resources>

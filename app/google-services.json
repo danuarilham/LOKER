@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "747468995361",
+    "project_id": "loker-7f8ef",
+    "storage_bucket": "loker-7f8ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747468995361:android:0773e180c8066e75ea9c60",
+        "android_client_info": {
+          "package_name": "com.danuarilhamkurnyawan.loker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwuGLoYg583hZmZNqA4kCPKGwkglv0KQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

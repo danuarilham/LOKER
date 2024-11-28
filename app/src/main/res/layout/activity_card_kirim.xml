@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardkirim"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="10dp"
+    app:cardBackgroundColor="@color/card2"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="5dp"
+    tools:context=".CardKirim"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layoutheader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/perusahaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Nama Perusahaan :"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAllCaps="true" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvprofesi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Profesi : "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvgaji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:text="Gaji : Rp"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/tvdeskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:text="Deskripsi :"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/tvtanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:text="Tanggal :"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnkirim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kirim Lowongan"
+                android:layout_weight="1"
+                android:layout_marginEnd="50dp"
+                android:layout_marginStart="50dp"
+                android:backgroundTint="@color/kirim"
+                android:textColor="@color/black"/>/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

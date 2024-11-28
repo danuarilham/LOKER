@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".tipskarir">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/biru">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Title -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tips Karier"
+                    android:textColor="#FFFFFF"
+                    android:textSize="29sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal" />
+
+                <!-- Article Section -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cara Meningkatkan Produktivitas di Tempat Kerja"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Peningkatan produktivitas membutuhkan lebih dari sekadar bekerja keras. Mulailah dengan mengatur daftar prioritas setiap hari untuk fokus pada tugas-tugas paling penting terlebih dahulu. Ambil jeda singkat setiap beberapa jam untuk menjaga fokus tetap segar, dan cobalah untuk menggunakan teknik manajemen waktu, seperti 'Pomodoro', agar tidak mudah terdistraksi."
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Interview Tips Section -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tips Wawancara Kerja"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Untuk sukses dalam wawancara, persiapkan jawaban Anda terhadap pertanyaan yang umum seperti ‘Apa kekuatan dan kelemahan Anda?’ atau ‘Mengapa Anda ingin bekerja di sini?’. Latih diri untuk memberikan contoh konkret dari pengalaman kerja sebelumnya yang menunjukkan keahlian Anda. Jangan lupa juga melakukan riset tentang perusahaan yang Anda lamar untuk menunjukkan minat dan kesiapan Anda."
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Skill Development Section -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pengembangan Diri dan Keterampilan"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Di era digital ini, belajar keterampilan baru adalah kunci untuk tetap kompetitif. Luangkan waktu untuk mengikuti kursus online yang berkaitan dengan bidang Anda atau bidang lain yang relevan. Mengasah keterampilan seperti komunikasi, pemecahan masalah, dan pemikiran kritis akan memperkuat profil Anda sebagai kandidat yang dapat diandalkan dalam berbagai situasi kerja."
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Career Trends Section -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tren Karier"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ikuti tren terbaru dalam karier agar Anda selalu siap dengan pengetahuan dan keahlian yang dibutuhkan oleh industri. Ketahui posisi atau keterampilan yang sedang banyak dibutuhkan, seperti kemampuan data analytics, coding, atau bahkan project management. Mengetahui tren ini bisa membantu Anda lebih terarah dalam mengembangkan diri dan memilih jalur karier."
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Book/Podcast Recommendations Section -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rekomendasi Buku &amp; Podcast"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berinvestasi dalam diri dengan membaca buku atau mendengarkan podcast dapat memberi Anda wawasan baru. Buku seperti 'How to Win Friends and Influence People' oleh Dale Carnegie mengajarkan keterampilan sosial yang berguna dalam lingkungan kerja. Sedangkan podcast seperti 'The Tim Ferriss Show' menawarkan wawasan dari para profesional sukses di berbagai bidang tentang bagaimana mereka mencapai karier yang luar biasa."
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Add more sections as needed -->
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

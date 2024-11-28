@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pelamar Pekerjaan"
+            android:textSize="22sp"
+            android:layout_marginTop="35dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Nama Lengkap -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/etNamaLengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan nama lengkap"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Jenis Kelamin -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <RadioButton
+                android:id="@+id/rbMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laki-laki" />
+
+            <RadioButton
+                android:id="@+id/rbFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perempuan" />
+        </RadioGroup>
+
+        <!-- Umur -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Umur"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/etUmur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan umur"
+            android:padding="10dp"
+            android:maxLength="2"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:inputType="number"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Nomor Telepon -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor Telepon"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/etTelepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="13"
+            android:hint="Masukkan nomor telepon"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:inputType="phone"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Alamat -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/etAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan alamat"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Deskripsi -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/etDeskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan deskripsi"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Upload Portofolio -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Link Portofolio"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/etportofolio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan link portofolio"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:autoLink="web"
+            android:textSize="14sp"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/kirim"
+            android:text="Simpan"
+            android:textColor="@color/black"
+            android:padding="12dp"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+</ScrollView>

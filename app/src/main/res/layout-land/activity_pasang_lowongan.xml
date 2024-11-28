@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".PasangLowongan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="16dp"
+        android:background="@drawable/border">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/pasangloker"/>
+
+        <!-- Form Title -->
+
+        <!-- Name Input -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:text="Pasang Lowongan"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etnamaperusahaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Perusahaan"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:inputType="textPersonName"
+            android:imeOptions="actionNext"
+            android:padding="12dp"
+            android:background="@drawable/border2" />
+
+        <!-- Profesi Input -->
+        <EditText
+            android:id="@+id/etProfesi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Profesi"
+            android:inputType="text"
+            android:padding="12dp"
+            android:background="@drawable/border2"
+            android:layout_marginTop="8dp" />
+
+        <!-- Salary Input -->
+        <EditText
+            android:id="@+id/editTextGaji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gaji Perusahaan"
+            android:inputType="number"
+            android:padding="12dp"
+            android:background="@drawable/border2"
+            android:layout_marginTop="8dp" />
+
+        <!-- Description Input -->
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Deskripsi dan Syarat-Syarat"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:padding="12dp"
+            android:background="@drawable/border2"
+            android:layout_marginTop="8dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btpasang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pasang Lowongan"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/pasang"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>
